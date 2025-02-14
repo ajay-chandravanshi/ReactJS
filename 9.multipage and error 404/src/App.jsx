@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Layout from "./layout";
+import NoPage from "./pages/NoPage";
 const App=()=>{
   return(
     <>

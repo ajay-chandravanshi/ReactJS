@@ -2,7 +2,7 @@
 const NoPage=()=>{
     return(
         <>
-        <h1>Error:404-No pge found</h1>
+        <h1>Error:404-No page found</h1>
         </>
     )
 }
