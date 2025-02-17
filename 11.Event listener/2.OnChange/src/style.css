@@ -1,0 +1,7 @@
+*{
+    background-color: rgba(29, 208, 214, 0.192);
+}
+.divbody{
+    display: flex;
+    gap: 50px;
+}
