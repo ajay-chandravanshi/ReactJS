@@ -1,0 +1,7 @@
+*{
+   justify-content: center;
+}
+.divbody{
+    display: flex;
+    gap: 50px;
+}
