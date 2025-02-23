@@ -1,0 +1,60 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "empno": 121,
+      "name": "ajay",
+      "designation": "clerk",
+      "salary": 3400
+    },
+    {
+      "id": "2",
+      "empno": 122,
+      "name": "aditya",
+      "designation": "manager",
+      "salary": 45000
+    },
+    {
+      "id": "3",
+      "empno": 123,
+      "name": "ayush",
+      "designation": "doctor",
+      "salary": 34000
+    },
+    {
+      "id": "126",
+      "Empno": "126",
+      "Name": "ajay",
+      "Designation": "bhopal",
+      "Salary": "26000"
+    },
+    {
+      "id": "145",
+      "Empno": "2526",
+      "Name": "animesh",
+      "Designation": "sehore",
+      "Salary": "123"
+    },
+    {
+      "id": "4eca",
+      "Empno": "345",
+      "Name": "ajay",
+      "Designation": "bhopal",
+      "Salary": "120000"
+    },
+    {
+      "id": "895f",
+      "empno": "3456",
+      "name": "akash",
+      "designation": "jai",
+      "salary": "120000"
+    },
+    {
+      "id": "4f55",
+      "empno": "2344",
+      "name": "animeshj",
+      "designation": "sehi",
+      "salary": "233"
+    }
+  ]
+}
