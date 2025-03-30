@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { useSelector,useDispatch } from "react-redux"
-import { addTask } from "./todoSlice"
-
+import { addTask, deleteTask,taskComplete,taskIncomplete } from "./todoSlice"
 const App =()=>{
   const[txtval,setTxtVal]=useState("");
   const dispach=useDispatch();
@@ -13,7 +12,26 @@ const App =()=>{
       <>
       <tr>
         <td>{sno}</td>
-        <td>{key.work}</td>
+        <td>
+          {key.status=="Complete" ? (<>
+          <span style={{color:"red", textDecoration:"line-through"}}>
+          {key.work}
+            </span>
+            </>) : (<>
+
+           {key.work}
+          </>)}
+        </td>
+        
+        <td>
+          <button onClick={()=>{dispach(deleteTask({id:key.id}))}} >Delete</button>
+        </td>
+        <td>
+          <button onClick={()=>{dispach(taskComplete({id:key.id}))}}>Complete</button>
+        </td>
+        <td>
+          <button onClick={()=>{dispach(taskIncomplete({id:key.id}))}}>Incomplete</button>
+        </td>
       </tr>
       </>
     )
