@@ -9,6 +9,18 @@ import img1 from "./images/image1.jpg"
 import img2 from "./images/image2.jpg"
 import img3 from "./images/image3.jpg"
 
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
+import c1 from "./images/image4.avif"
+import c2 from "./images/image5.webp"
+import c3 from "./images/image6.jpg"
+
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
+
+
 
 const App = () => {
   return (
@@ -50,7 +62,53 @@ const App = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+
+<div className='card'>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={c1} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
      
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={c2} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={c3} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+
+    <Row>
+        <Col>
+          <Form.Control placeholder="First name" />
+        </Col>
+        <Col>
+          <Form.Control placeholder="Last name" />
+        </Col>
+      </Row>
+    </div>
     </>
   );
 };
