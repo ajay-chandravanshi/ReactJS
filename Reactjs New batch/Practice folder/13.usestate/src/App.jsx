@@ -1,18 +1,11 @@
+import { useState } from "react";
 
 const App = () => {
-//   const display=()=>{
-//     alert("button clicked")
-//   }
-
-const Myname=(nm)=>{
-  alert(`My name is ${nm}`);
-}
-
+  const [name,setName]=useState("Ajay")
   return (
     <>
-    <h1>Welcome</h1>
-    {/* <button onClick={display}>Click Here</button>  */}
-    <button onClick={()=>{Myname("Ajay")}}>Click Here</button>
+    <h1>Welcome to my company {name}</h1>
+    <button onClick={()=>{setName("Yuvraj")}} >Click Here</button>
     </>
   );
 };
