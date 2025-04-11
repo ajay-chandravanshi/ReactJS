@@ -23,9 +23,10 @@ const Insert = () => {
         <>
             <center>
                 <h1>Applcation</h1>
-                Enter Name : <input type="text" name="name" onChange={handleInput} />
-                <br /><br />
+               
                 Enter Roll : <input type="text" name="roll" onChange={handleInput} />
+                <br /><br /> 
+                Enter Name : <input type="text" name="name" onChange={handleInput} />
                 <br /><br />
                 Enter City : <input type="text" name="city" onChange={handleInput} />
                 <br /><br />
