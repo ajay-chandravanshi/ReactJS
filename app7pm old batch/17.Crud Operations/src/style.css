@@ -1,0 +1,17 @@
+.tablebody{
+    font-family: sans-serif;
+    /* width: 700px;
+    height: 400px; */
+    width:500px;
+    text-align: center;
+    font-size:x-large;
+}
+.searchData{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+.tabledata{
+    border: 2px solid black;
+}
+

@@ -1,7 +1,4 @@
 
-
-
-
 const Contact=()=>{
     return(
         <>

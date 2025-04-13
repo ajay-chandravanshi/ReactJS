@@ -1,60 +1,39 @@
 {
   "student": [
     {
-      "id": "1",
-      "empno": 121,
-      "name": "ajay",
-      "designation": "clerk",
-      "salary": 3400
-    },
-    {
-      "id": "2",
-      "empno": 122,
-      "name": "aditya",
-      "designation": "manager",
-      "salary": 45000
-    },
-    {
-      "id": "3",
-      "empno": 123,
+      "id": "6b3a",
+      "empno": "123",
       "name": "ayush",
-      "designation": "doctor",
-      "salary": 34000
+      "designation": "nagpur",
+      "salary": "15000"
     },
     {
-      "id": "126",
-      "Empno": "126",
-      "Name": "ajay",
-      "Designation": "bhopal",
-      "Salary": "26000"
+      "id": "279c",
+      "empno": "123",
+      "name": "ajay",
+      "designation": "indore",
+      "salary": "39000"
     },
     {
-      "id": "145",
-      "Empno": "2526",
-      "Name": "animesh",
-      "Designation": "sehore",
-      "Salary": "123"
+      "id": "c8b0",
+      "empno": "123",
+      "name": "aksh",
+      "designation": "vlogger",
+      "salary": "12000"
     },
     {
-      "id": "4eca",
-      "Empno": "345",
-      "Name": "ajay",
-      "Designation": "bhopal",
-      "Salary": "120000"
+      "id": "8060",
+      "empno": "125",
+      "name": "aniket",
+      "designation": "reseaRCH",
+      "salary": "344555"
     },
     {
-      "id": "895f",
-      "empno": "3456",
-      "name": "akash",
-      "designation": "jai",
-      "salary": "120000"
-    },
-    {
-      "id": "4f55",
-      "empno": "2344",
-      "name": "animeshj",
-      "designation": "sehi",
-      "salary": "233"
+      "id": "effe",
+      "empno": "123",
+      "name": "ajinkya",
+      "designation": "vlog",
+      "salary": "200000"
     }
   ]
 }
