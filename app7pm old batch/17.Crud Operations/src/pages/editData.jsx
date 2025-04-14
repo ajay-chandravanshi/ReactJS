@@ -28,6 +28,7 @@ const EditData = () => {
         let api = `http://localhost:3000/student/${id}`;
         const response = await axios.put(api, empData);
         alert("Record Updated!!");
+        loadData()
       };
 
 

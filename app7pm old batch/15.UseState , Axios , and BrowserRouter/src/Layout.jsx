@@ -4,7 +4,7 @@ const Layout=()=>{
         <>
 
         <Link to="home">Home</Link> |
-        <Link to="insert">Insert</Link> |
+        <Link to="Insert">Insert</Link> |
         <Link to="display">Display</Link> |
         <hr />
         <Outlet />

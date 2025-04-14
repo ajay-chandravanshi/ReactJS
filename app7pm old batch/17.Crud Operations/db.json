@@ -20,20 +20,6 @@
       "name": "aksh",
       "designation": "vlogger",
       "salary": "12000"
-    },
-    {
-      "id": "8060",
-      "empno": "125",
-      "name": "aniket",
-      "designation": "reseaRCH",
-      "salary": "344555"
-    },
-    {
-      "id": "effe",
-      "empno": "123",
-      "name": "ajinkya",
-      "designation": "vlog",
-      "salary": "200000"
     }
   ]
 }

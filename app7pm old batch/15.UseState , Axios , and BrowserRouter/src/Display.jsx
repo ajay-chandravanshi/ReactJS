@@ -1,7 +1,3 @@
-
-
-
-
 const Display=()=>{
     return(
         <>

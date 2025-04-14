@@ -1,0 +1,32 @@
+{
+  "employee": [
+    {
+      "id": "2be2",
+      "empno": "1002",
+      "name": "kljlkjlk",
+      "designation": "devloper",
+      "salary": "87877"
+    },
+    {
+      "id": "26ec",
+      "empno": "1003",
+      "name": "lkjkljkl",
+      "designation": "lkjkljlk",
+      "salary": "098908"
+    },
+    {
+      "id": "9cea",
+      "empno": "1004",
+      "name": "vinu",
+      "designation": "Eng",
+      "salary": "23455"
+    },
+    {
+      "id": "2c1d",
+      "empno": "123",
+      "name": "ajay",
+      "designation": "devloper",
+      "salary": "12000"
+    }
+  ]
+}

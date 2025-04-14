@@ -1,0 +1,36 @@
+#footer
+{
+    width: 100%;
+    padding: 30px;
+    background-color: lightblue;
+    margin-top: 30px;
+}
+
+#myform
+{
+    width: 400px;
+    margin: auto;
+}
+
+#searchData
+{
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid green;
+    background-color: lightgreen;
+}
+
+.DelIcon
+{
+    font-size: 25px;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+.editIcon
+{
+    font-size: 25px;
+    color: rgb(61, 164, 64);
+    cursor: pointer;
+}

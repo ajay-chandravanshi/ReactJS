@@ -15,7 +15,6 @@
         const response=await axios.get(api);
         console.log(response.data);
         setMydata(response.data);
-    
     }
     useEffect(()=>{
         loadData();
