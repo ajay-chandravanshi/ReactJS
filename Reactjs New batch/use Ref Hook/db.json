@@ -1,0 +1,25 @@
+{
+  "student": [
+    {
+      "id": "6b3a",
+      "empno": "123",
+      "name": "ayush",
+      "designation": "nagpur",
+      "salary": "15000"
+    },
+    {
+      "id": "279c",
+      "empno": "123",
+      "name": "ajay",
+      "designation": "indore",
+      "salary": "39000"
+    },
+    {
+      "id": "2938",
+      "empno": "123",
+      "name": "ajay",
+      "designation": "indore",
+      "salary": "39000"
+    }
+  ]
+}
