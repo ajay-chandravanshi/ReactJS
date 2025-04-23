@@ -1,0 +1,52 @@
+{
+  "employees": [
+    {
+      "emp_id": 1,
+      "name": "Rahul Sharma",
+      "designation": "Software Engineer",
+      "department": "IT",
+      "basic_salary": 50000,
+      "id": "5f07"
+    },
+    {
+      "emp_id": 2,
+      "name": "Anjali Mehta",
+      "designation": "HR Manager",
+      "department": "HR",
+      "basic_salary": 60000,
+      "id": "23c1"
+    },
+    {
+      "emp_id": 3,
+      "name": "Suresh Kumar",
+      "designation": "Accountant",
+      "department": "Finance",
+      "basic_salary": 45000,
+      "id": "8250"
+    },
+    {
+      "emp_id": 4,
+      "name": "Pooja Singh",
+      "designation": "Marketing Head",
+      "department": "Marketing",
+      "basic_salary": 70000,
+      "id": "39f1"
+    },
+    {
+      "emp_id": 5,
+      "name": "Amit Verma",
+      "designation": "Support Engineer",
+      "department": "Customer Support",
+      "basic_salary": 40000,
+      "id": "3e76"
+    },
+    {
+      "id": "928c",
+      "emp_id": "123",
+      "name": "ajay",
+      "designation": "developer",
+      "department": "engineer",
+      "basic_salary": "12000"
+    }
+  ]
+}

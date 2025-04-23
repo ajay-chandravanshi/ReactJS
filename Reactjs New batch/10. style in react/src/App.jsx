@@ -1,13 +1,49 @@
+import React from "react";
 
-const App = () => {
+const Styling = () => {
   return (
-    <>
-      <h1 style={{color:"red",fontFamily:"sans-serif",textDecoration:"underline",fontSize:"50px"}}>Hello sir</h1>
-      
-      <div style={{border:"3px solid red",width:"200px",height:"200px",borderRadius:"10px",justifyContent:"center",alignItem:"center",backgroundColor:"yellow",color:"red",fontSize:"30px",lineHeight:"6",paddingLeft:"50px"}}>
-        Cybrom
+    <div
+      style={{
+        backgroundColor: "yellow",
+        width: "400px",
+        height: "200px",
+        borderRadius: "50%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        border: "4px solid black",
+      }}
+    >
+      <div
+        style={{
+          backgroundColor: "skyblue",
+          width: "250px",
+          height: "120px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          border: "3px solid darkblue",
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: "red",
+            width: "120px",
+            height: "60px",
+            borderRadius: "50%",
+            color: "white",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontWeight: "bold",
+            border: "2px solid white",
+          }}
+        >
+          CYBEROM
+        </div>
       </div>
-    </>
+    </div>
   );
 };
-export default App;
+
+export default Styling;
