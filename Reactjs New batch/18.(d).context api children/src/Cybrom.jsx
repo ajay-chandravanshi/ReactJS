@@ -5,6 +5,7 @@ const Cybrom=({children})=>{
     return(
         <>
         <h1>Welcome To Cybrom{name}</h1>
+        
         </>
     )
 }

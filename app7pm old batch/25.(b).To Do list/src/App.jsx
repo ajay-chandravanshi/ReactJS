@@ -34,6 +34,7 @@ const App =()=>{
       <tr>
         <th>Sno</th>
         <th id="task">My Task</th>
+        <th>Action</th>
       </tr>
       {ans}
     </table>

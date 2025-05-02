@@ -13,12 +13,11 @@ const App =()=>{
       <tr>
         <td>{sno}</td>
         <td>
-          {key.status=="Complete" ? (<>
+          {key.status ? (<>
           <span style={{color:"red", textDecoration:"line-through"}}>
           {key.work}
             </span>
             </>) : (<>
-
            {key.work}
           </>)}
         </td>

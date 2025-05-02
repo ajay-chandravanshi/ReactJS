@@ -22,6 +22,7 @@ const todoSlice=createSlice({
                     state.task[i].status="complete";
                 }
             }
+            
         },
         taskIncomplete:(state,actions)=>{
             for(var i=0;i<state.task.length;i++)

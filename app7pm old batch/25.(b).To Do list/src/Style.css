@@ -30,6 +30,8 @@ table{
     gap: 20px;
     font-size: 30px;
     border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 th{
     padding: 25px;
